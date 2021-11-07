@@ -646,6 +646,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "myepicproject"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
 name = "num-derive"
 version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -874,13 +881,6 @@ dependencies = [
  "digest 0.9.0",
  "keccak",
  "opaque-debug",
-]
-
-[[package]]
-name = "sol-project"
-version = "0.1.0"
-dependencies = [
- "anchor-lang",
 ]
 
 [[package]]
